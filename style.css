@@ -457,7 +457,7 @@ table {
     }
     /*----- Main Content -----*/
     .main_content {
-        flex-basis: 100%;
+        width: 100%;
     }
     .main_content .left_right_sidebar_opener {
         display: flex;
@@ -523,7 +523,7 @@ table {
     }
     /*----- Main Content -----*/
     .main_content {
-        flex-basis: 100%;
+        width: 100%;
     }
     .main_content .left_right_sidebar_opener {
         display: flex;
