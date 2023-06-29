@@ -99,7 +99,7 @@
     margin-top: 20px;
     align-items: center;
     color: #000;
-    width: 380px;
+    width: 420px;
     border-radius: 5px;
     font-size: 20px;
 }
@@ -458,6 +458,9 @@ table {
     .table th {
         font-size: 20px;
     }
+    input::placeholder {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
@@ -558,6 +561,9 @@ table {
     .table th {
         font-size: 20px;
     }
+    input::placeholder {
+        font-size: 16px;
+    }
 }
 
 @media(min-width: 769px) and (max-width: 1200px) {
@@ -657,5 +663,14 @@ table {
     .table td,
     .table th {
         font-size: 20px;
+    }
+    .tabs .tab_name {
+        font-size: 22px;
+    }
+    .menu_item_name_and_filter .filter_and_sort .sort_and_filter {
+        font-size: 18px;
+    }
+    input::placeholder {
+        font-size: 16px;
     }
 }
