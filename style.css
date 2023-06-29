@@ -78,6 +78,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .main_content .main_navbar .dark_mode_icon i {
