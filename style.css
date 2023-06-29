@@ -72,6 +72,25 @@
     display: none;
 }
 
+.main_content .left_right_sidebar_opener .student {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main_content .left_right_sidebar_opener .student img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+    margin-top: 12px;
+}
+
+.main_content .left_right_sidebar_opener .student p {
+    font-size: 18px;
+}
+
 .search_box {
     background: var(--border-color);
     display: flex;
