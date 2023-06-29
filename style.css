@@ -603,6 +603,7 @@ table {
         background-color: #fff;
         width: 100%;
         height: 100%;
+        overflow: scroll;
     }
     .right_sidebar .profile {
         gap: 40px;
@@ -618,7 +619,7 @@ table {
     }
     .notification_and_name .close_btn,
     .profile .contact_info {
-        font-size: 34px;
+        font-size: 40px;
     }
     .profile .about p,
     .profile .other_info p,
