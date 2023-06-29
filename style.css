@@ -32,7 +32,7 @@
     position: absolute;
     top: 30px;
     left: 30px;
-    font-size: 34px;
+    font-size: 45px;
     cursor: pointer;
     display: none;
 }
@@ -370,8 +370,9 @@ table {
         top: 0;
         left: 0;
         background-color: #fff;
-        width: 350px;
+        width: 360px;
         height: 100%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
     .left_sidebar .close_hamburger_btn {
         display: block;
@@ -473,8 +474,9 @@ table {
         top: 0;
         left: 0;
         background-color: #fff;
-        width: 350px;
+        width: 360px;
         height: 100%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
     .left_sidebar .close_hamburger_btn {
         display: block;
@@ -576,8 +578,9 @@ table {
         top: 0;
         left: 0;
         background-color: #fff;
-        width: 350px;
+        width: 360px;
         height: 100%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
     .left_sidebar .close_hamburger_btn {
         display: block;
