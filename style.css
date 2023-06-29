@@ -18,6 +18,14 @@
 }
 
 
+/*----- Dark Mode -----*/
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+
 /*----- Left SideBar -----*/
 
 .left_sidebar {
@@ -25,7 +33,7 @@
     position: sticky;
     top: 0px;
     align-self: flex-start;
-    transition: all.3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .left_sidebar .close_hamburger_btn {
@@ -63,6 +71,27 @@
     flex-direction: column;
     gap: 30px;
     padding: 0 20px;
+    transition: all .3s ease-in-out;
+}
+
+.main_content .main_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_content .main_navbar .dark_mode_icon i {
+    background: var(--border-color);
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main_content .main_navbar .dark_mode_icon .bx-sun {
+    display: none;
 }
 
 .main_content .left_right_sidebar_opener {
@@ -102,6 +131,7 @@
     width: 100%;
     border-radius: 5px;
     font-size: 20px;
+    width: 90%;
 }
 
 .search_box input {
@@ -258,8 +288,8 @@
     background: #ff0000;
     height: 5px;
     width: 5px;
-    right: 1px;
-    top: 3px;
+    right: 0px;
+    top: 2px;
     border-radius: 50%;
 }
 
