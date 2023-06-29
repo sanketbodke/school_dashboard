@@ -79,8 +79,8 @@
 }
 
 .main_content .left_right_sidebar_opener .student img {
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     object-fit: cover;
     background-position: center;
@@ -88,7 +88,7 @@
 }
 
 .main_content .left_right_sidebar_opener .student p {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .search_box {
@@ -386,7 +386,7 @@
         margin-bottom: 20px;
     }
     .left_sidebar .menu_items .menu_item {
-        font-size: 22px;
+        font-size: 18px;
     }
     /*----- right_sidebar -----*/
     .right_sidebar {
@@ -402,25 +402,34 @@
         overflow: scroll;
     }
     .right_sidebar .profile {
-        gap: 40px;
-        padding: 0 200px;
+        gap: 25px;
+        padding: 25px;
+        text-align: center;
     }
-    .right_sidebar .notification_and_name,
+    .profile .other_info {
+        justify-content: center;
+    }
     .profile .name_and_class P,
     .profile .name_and_class span,
     .profile .about h4,
-    .profile .other_info h4,
-    .notification_and_name .bell {
-        font-size: 24px;
+    .profile .other_info h4 {
+        font-size: 15px;
+    }
+    .notification_and_name .bx-chevron-down {
+        display: none;
     }
     .notification_and_name .close_btn,
+    .notification_and_name .bell {
+        font-size: 28px;
+    }
     .profile .contact_info {
-        font-size: 34px;
+        font-size: 24px;
+        gap: 20px;
     }
     .profile .about p,
     .profile .other_info p,
     .profile .student_from_same_class h4 {
-        font-size: 18px;
+        font-size: 12px;
     }
     .notification_and_name img {
         height: 50px;
@@ -463,10 +472,10 @@
     }
     .table td,
     .table th {
-        font-size: 20px;
+        font-size: 15px;
     }
     input::placeholder {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
