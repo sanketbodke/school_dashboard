@@ -301,6 +301,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     gap: 15px;
 }
 
@@ -318,7 +319,6 @@
 
 .profile .name_and_class P {
     font-weight: 600;
-    color: #000;
 }
 
 .profile .name_and_class span {
