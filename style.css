@@ -374,7 +374,7 @@
         top: 0;
         left: 0;
         background-color: #fff;
-        width: 360px;
+        width: 330px;
         height: 100%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -429,7 +429,7 @@
     .profile .about p,
     .profile .other_info p,
     .profile .student_from_same_class h4 {
-        font-size: 12px;
+        font-size: 14px;
     }
     .notification_and_name img {
         height: 50px;
@@ -442,7 +442,7 @@
     .student_from_same_class {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
@@ -486,7 +486,7 @@
         top: 0;
         left: 0;
         background-color: #fff;
-        width: 360px;
+        width: 330px;
         height: 100%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -498,7 +498,7 @@
         margin-bottom: 20px;
     }
     .left_sidebar .menu_items .menu_item {
-        font-size: 22px;
+        font-size: 18px;
     }
     /*----- right_sidebar -----*/
     .right_sidebar {
@@ -514,25 +514,34 @@
         overflow: scroll;
     }
     .right_sidebar .profile {
-        gap: 40px;
-        padding: 0 200px;
+        gap: 25px;
+        padding: 25px;
+        text-align: center;
     }
-    .right_sidebar .notification_and_name,
+    .profile .other_info {
+        justify-content: center;
+    }
     .profile .name_and_class P,
     .profile .name_and_class span,
     .profile .about h4,
-    .profile .other_info h4,
-    .notification_and_name .bell {
-        font-size: 24px;
+    .profile .other_info h4 {
+        font-size: 15px;
+    }
+    .notification_and_name .bx-chevron-down {
+        display: none;
     }
     .notification_and_name .close_btn,
+    .notification_and_name .bell {
+        font-size: 28px;
+    }
     .profile .contact_info {
-        font-size: 34px;
+        font-size: 24px;
+        gap: 20px;
     }
     .profile .about p,
     .profile .other_info p,
     .profile .student_from_same_class h4 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .notification_and_name img {
         height: 50px;
@@ -545,7 +554,7 @@
     .student_from_same_class {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
@@ -572,10 +581,10 @@
     }
     .table td,
     .table th {
-        font-size: 20px;
+        font-size: 15px;
     }
     input::placeholder {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -589,7 +598,7 @@
         top: 0;
         left: 0;
         background-color: #fff;
-        width: 360px;
+        width: 330px;
         height: 100%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -601,7 +610,7 @@
         margin-bottom: 20px;
     }
     .left_sidebar .menu_items .menu_item {
-        font-size: 22px;
+        font-size: 18px;
     }
     /*----- right_sidebar -----*/
     .right_sidebar {
@@ -617,25 +626,34 @@
         overflow: scroll;
     }
     .right_sidebar .profile {
-        gap: 40px;
-        padding: 0 200px;
+        gap: 25px;
+        padding: 25px;
+        text-align: center;
     }
-    .right_sidebar .notification_and_name,
+    .profile .other_info {
+        justify-content: center;
+    }
     .profile .name_and_class P,
     .profile .name_and_class span,
     .profile .about h4,
-    .profile .other_info h4,
-    .notification_and_name .bell {
-        font-size: 24px;
+    .profile .other_info h4 {
+        font-size: 15px;
+    }
+    .notification_and_name .bx-chevron-down {
+        display: none;
     }
     .notification_and_name .close_btn,
+    .notification_and_name .bell {
+        font-size: 28px;
+    }
     .profile .contact_info {
-        font-size: 40px;
+        font-size: 24px;
+        gap: 20px;
     }
     .profile .about p,
     .profile .other_info p,
     .profile .student_from_same_class h4 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .notification_and_name img {
         height: 50px;
@@ -648,7 +666,7 @@
     .student_from_same_class {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
@@ -675,15 +693,9 @@
     }
     .table td,
     .table th {
-        font-size: 20px;
-    }
-    .tabs .tab_name {
-        font-size: 22px;
-    }
-    .menu_item_name_and_filter .filter_and_sort .sort_and_filter {
-        font-size: 18px;
+        font-size: 15px;
     }
     input::placeholder {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
