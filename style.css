@@ -393,6 +393,31 @@ table {
     }
     .right_sidebar .profile {
         gap: 40px;
+        padding: 0 200px;
+    }
+    .right_sidebar .notification_and_name,
+    .profile .name_and_class P,
+    .profile .name_and_class span,
+    .profile .about h4,
+    .profile .other_info h4,
+    .notification_and_name .bell {
+        font-size: 24px;
+    }
+    .notification_and_name .close_btn,
+    .profile .contact_info {
+        font-size: 34px;
+    }
+    .profile .about p,
+    .profile .other_info p,
+    .profile .student_from_same_class h4 {
+        font-size: 18px;
+    }
+    .notification_and_name img {
+        height: 50px;
+        width: 50px;
+    }
+    .profile .student_same_class_img span {
+        font-size: 16px;
     }
     .notification_and_name {
         justify-content: center;
@@ -459,6 +484,31 @@ table {
     }
     .right_sidebar .profile {
         gap: 40px;
+        padding: 0 200px;
+    }
+    .right_sidebar .notification_and_name,
+    .profile .name_and_class P,
+    .profile .name_and_class span,
+    .profile .about h4,
+    .profile .other_info h4,
+    .notification_and_name .bell {
+        font-size: 24px;
+    }
+    .notification_and_name .close_btn,
+    .profile .contact_info {
+        font-size: 34px;
+    }
+    .profile .about p,
+    .profile .other_info p,
+    .profile .student_from_same_class h4 {
+        font-size: 18px;
+    }
+    .notification_and_name img {
+        height: 50px;
+        width: 50px;
+    }
+    .profile .student_same_class_img span {
+        font-size: 16px;
     }
     .notification_and_name {
         justify-content: center;
@@ -525,6 +575,31 @@ table {
     }
     .right_sidebar .profile {
         gap: 40px;
+        padding: 0 200px;
+    }
+    .right_sidebar .notification_and_name,
+    .profile .name_and_class P,
+    .profile .name_and_class span,
+    .profile .about h4,
+    .profile .other_info h4,
+    .notification_and_name .bell {
+        font-size: 24px;
+    }
+    .notification_and_name .close_btn,
+    .profile .contact_info {
+        font-size: 34px;
+    }
+    .profile .about p,
+    .profile .other_info p,
+    .profile .student_from_same_class h4 {
+        font-size: 18px;
+    }
+    .notification_and_name img {
+        height: 50px;
+        width: 50px;
+    }
+    .profile .student_same_class_img span {
+        font-size: 16px;
     }
     .notification_and_name {
         justify-content: center;
