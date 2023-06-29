@@ -395,6 +395,7 @@ table {
         background-color: #fff;
         width: 100%;
         height: 100%;
+        overflow: scroll;
     }
     .right_sidebar .profile {
         gap: 40px;
@@ -499,6 +500,7 @@ table {
         background-color: #fff;
         width: 100%;
         height: 100%;
+        overflow: scroll;
     }
     .right_sidebar .profile {
         gap: 40px;
