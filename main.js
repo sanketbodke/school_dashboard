@@ -28,7 +28,6 @@ function darkMode() {
     $('body').toggleClass('dark-mode');
     $('.left_sidebar').toggleClass('dark-mode');
     $('.table tr:nth-child(even)').css({
-        'background-color': '#fff',
         'color': '#000',
     })
     $('.table tr:nth-child(4)').css({
